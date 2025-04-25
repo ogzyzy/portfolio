@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     siteName: "Dominik Zygarski",
     images: [
       {
-        url: `${baseUrl}/og-image.png`,
+        url: `${baseUrl}/og-preview.png`,
         width: 1200,
         height: 628,
         alt: "Dominik Zygarski – DevOps Engineer",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Portfolio",
     description: "DevOps Engineer specializing in AWS, CI/CD and Cloud.",
-    images: [`${baseUrl}/og-image.png`],
+    images: [`${baseUrl}/og-preview.png`],
   },
 };
 
@@ -54,21 +54,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <meta property="og:title" content="Portfolio" />
-        <meta property="og:description" content="DevOps Engineer specializing in AWS, CI/CD and Cloud." />
-        <meta property="og:url" content={baseUrl} />
-        <meta property="og:image" content={`${baseUrl}/og-image.png`} />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="628" />
-        <meta property="og:image:alt" content="Dominik Zygarski – DevOps Engineer" />
-        <meta property="og:type" content="website" />
-        
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Portfolio" />
-        <meta name="twitter:description" content="DevOps Engineer specializing in AWS, CI/CD and Cloud." />
-        <meta name="twitter:image" content={`${baseUrl}/og-image.png`} />
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
