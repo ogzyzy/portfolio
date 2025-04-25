@@ -153,7 +153,7 @@ export default function Portfolio() {
                 </div>
                 <div>
                   <p className="text-xs text-gray-500 uppercase mb-1">LOCATION</p>
-                  <p className="text-sm text-gray-300 flex items-center">
+                  <p className="text-sm text-gray-300 flex items-center justify-center md:justify-start">
                     <MapPin className="h-3 w-3 mr-1" /> Poland
                   </p>
                 </div>
