@@ -5,36 +5,6 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { SiMedium } from "react-icons/si"
-import { Metadata } from "next";
-
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL!;
-
-  export const metadata: Metadata = {
-    title: "Portfolio",
-    description:
-      "Portfolio of Dominik Zygarski – DevOps & Cloud Engineer specialized in AWS, CI/CD, Infrastructure as Code, and Big Data projects.",
-    openGraph: {
-      title: "Portfolio",
-      description: "DevOps Engineer specializing in AWS, CI/CD and Cloud.",
-      url: baseUrl,
-      siteName: "Dominik Zygarski",
-      images: [
-        {
-          url: `${baseUrl}/og-preview.png`,
-          width: 1200,
-          height: 628,
-          alt: "Dominik Zygarski – DevOps Engineer",
-        },
-      ],
-      type: "website",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: "Portfolio",
-      description: "DevOps Engineer specializing in AWS, CI/CD and Cloud.",
-      images: [`${baseUrl}/og-preview.png`],
-    },
-  };
 
 export default function Portfolio() {
   // Projects
