@@ -147,7 +147,7 @@ export default function Portfolio() {
               <div className="grid grid-cols-1 gap-6 items-center text-center">
                 <div>
                   <p className="text-xs text-gray-500 uppercase mb-1">LOCATION</p>
-                  <p className="text-sm text-gray-300 text-center md:text-left">
+                  <p className="text-sm text-gray-300 flex items-center justify-center md:justify-center">
                     <span className="inline-flex items-center">
                       <MapPin className="h-3 w-3 mr-1" /> Poland
                     </span>
