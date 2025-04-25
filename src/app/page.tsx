@@ -161,8 +161,10 @@ export default function Portfolio() {
                 </div>
                 <div>
                   <p className="text-xs text-gray-500 uppercase mb-1">STATUS</p>
-                  <p className="flex items-center justify-center md:justify-start">
-                    <span className="h-2 w-2 rounded-full bg-green-500 mr-2"></span> Available for work
+                  <p className="text-sm text-gray-300 text-center md:text-left">
+                    <span className="inline-flex items-center">
+                      <span className="h-2 w-2 rounded-full bg-green-500 mr-2"></span> Available for work
+                    </span>
                   </p>
                 </div>
               </div>
