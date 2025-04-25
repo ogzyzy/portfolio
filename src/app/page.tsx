@@ -12,8 +12,7 @@ const baseUrl = isProd
   ? "https://www.dominikzygarski.com"
   : "https://dev.d27y48kw4ohp7k.amplifyapp.com";
 
-export async function generateMetadata(): Promise<Metadata> {
-  return {
+  export const metadata: Metadata = {
     title: "Portfolio",
     description:
       "Portfolio of Dominik Zygarski – DevOps & Cloud Engineer specialized in AWS, CI/CD, Infrastructure as Code, and Big Data projects.",
@@ -39,7 +38,6 @@ export async function generateMetadata(): Promise<Metadata> {
       images: [`${baseUrl}/og-preview.png`],
     },
   };
-}
 
 export default function Portfolio() {
   // Projects
