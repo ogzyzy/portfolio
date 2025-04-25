@@ -153,13 +153,13 @@ export default function Portfolio() {
                 </div>
                 <div>
                   <p className="text-xs text-gray-500 uppercase mb-1">LOCATION</p>
-                  <p className="text-sm text-gray-300 flex items-center justify-center gap-1 md:justify-start">
-                    <MapPin className="h-3 w-3" /> Poland
+                  <p className="text-sm text-gray-300 text-center md:text-left">
+                    <MapPin className="h-3 w-3 mr-1" /> Poland
                   </p>
                 </div>
                 <div>
                   <p className="text-xs text-gray-500 uppercase mb-1">STATUS</p>
-                  <p className="text-sm text-gray-300 flex items-center justify-center gap-2 md:justify-start">
+                  <p className="text-sm text-gray-300 text-center md:text-left">
                     <span className="h-2 w-2 rounded-full bg-green-500"></span> Available for work
                   </p>
                 </div>
