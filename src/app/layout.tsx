@@ -33,11 +33,17 @@ export const metadata: Metadata = {
       {
         url: `${baseUrl}/og-image.png`,
         width: 1200,
-        height: 630,
+        height: 628,
         alt: "Dominik Zygarski – DevOps Engineer",
       },
     ],
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Portfolio",
+    description: "DevOps Engineer specializing in AWS, CI/CD and Cloud.",
+    images: [`${baseUrl}/og-image.png`],
   },
 };
 
