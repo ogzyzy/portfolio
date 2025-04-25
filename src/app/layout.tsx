@@ -16,14 +16,14 @@ const baseUrl = process.env.NEXT_PUBLIC_BASE_URL!;
 
 export const metadata: Metadata = {
   title: "Portfolio",
-  description: "Portfolio of Dominik Zygarski – DevOps & Cloud Engineer specialized in AWS, CI/CD, Infrastructure as Code, and Big Data projects.",
+  description: "Portfolio of Dominik Zygarski – DevOps, Cloud, and Big Data enthusiast",
   metadataBase: new URL(baseUrl),
   icons: {
     icon: "/favicon.ico",
   },
   openGraph: {
     title: "Portfolio",
-    description: "DevOps Engineer specializing in AWS, CI/CD and Cloud.",
+    description: "DevOps, Cloud, and Big Data enthusiast",
     url: baseUrl,
     siteName: "Dominik Zygarski",
     images: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Portfolio",
-    description: "DevOps Engineer specializing in AWS, CI/CD and Cloud.",
+    description: "DevOps, Cloud, and Big Data enthusiast",
     images: [`${baseUrl}/og-preview.png`],
   },
 };
