@@ -7,10 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { SiMedium } from "react-icons/si"
 import { Metadata } from "next";
 
-const isProd = process.env.NODE_ENV === "production";
-const baseUrl = isProd
-  ? "https://www.dominikzygarski.com"
-  : "https://dev.d27y48kw4ohp7k.amplifyapp.com";
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL!;
 
   export const metadata: Metadata = {
     title: "Portfolio",
