@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Dominik Zygarski Portfolio",
     description: "DevOps Engineer specializing in AWS, CI/CD and Cloud.",
-    url: baseUrl, // lub localhost, jeśli lokalnie
+    url: baseUrl, 
     siteName: "Dominik Zygarski",
     images: [
       {
