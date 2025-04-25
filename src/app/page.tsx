@@ -144,23 +144,21 @@ export default function Portfolio() {
                 </div>
               </div>
 
-              <div className="hidden md:flex flex-col gap-6 min-w-[200px]">
-                <div>
-                  <p className="text-xs text-gray-500 uppercase mb-1">EMAIL</p>
-                  <Link href="mailto:dominikzygarski@gmail.com" className="text-sm text-gray-300 hover:text-[#00B2C8]">
-                    dominikzygarski@gmail.com
-                  </Link>
-                </div>
+              <div className="grid grid-cols-1 gap-6 items-center text-center justify-start md:mt-15 md:mr-20">
                 <div>
                   <p className="text-xs text-gray-500 uppercase mb-1">LOCATION</p>
-                  <p className="text-sm text-gray-300 flex items-center">
-                    <MapPin className="h-3 w-3 mr-1" /> Poland
+                  <p className="text-sm text-gray-300 flex items-center justify-center md:justify-center">
+                    <span className="inline-flex items-center">
+                      <MapPin className="h-3 w-3 mr-1" /> Poland
+                    </span>
                   </p>
                 </div>
                 <div>
                   <p className="text-xs text-gray-500 uppercase mb-1">STATUS</p>
-                  <p className="text-sm text-gray-300 flex items-center">
-                    <span className="h-2 w-2 rounded-full bg-green-500 mr-2"></span> Available for work
+                  <p className="text-sm text-gray-300 text-center md:text-left">
+                    <span className="inline-flex items-center">
+                      <span className="h-2 w-2 rounded-full bg-green-500 mr-2"></span> Available for work
+                    </span>
                   </p>
                 </div>
               </div>
