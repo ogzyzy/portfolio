@@ -144,7 +144,7 @@ export default function Portfolio() {
                 </div>
               </div>
 
-              <div className="flex flex-col gap-6 w-full md:w-[200px] items-center md:items-end text-center md:text-left mt-6 md:mt-0 shrink-0">
+              <div className="flex flex-col gap-6 w-full md:min-w-[200px] md:max-w-[250px] items-center md:items-end text-center md:text-left mt-6 md:mt-0 shrink-0">
                 <div>
                   <p className="text-xs text-gray-500 uppercase mb-1">EMAIL</p>
                   <Link href="mailto:dominikzygarski@gmail.com" className="text-sm text-gray-300 hover:text-[#00B2C8]">
