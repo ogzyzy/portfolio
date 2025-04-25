@@ -144,7 +144,7 @@ export default function Portfolio() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 gap-6 items-center text-center">
+              <div className="grid grid-cols-1 gap-6 items-center text-center justify-start mt-6 ml-6">
                 <div>
                   <p className="text-xs text-gray-500 uppercase mb-1">LOCATION</p>
                   <p className="text-sm text-gray-300 flex items-center justify-center md:justify-center">
