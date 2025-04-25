@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
   },
   openGraph: {
-    title: "Dominik Zygarski Portfolio",
+    title: "Portfolio",
     description: "DevOps Engineer specializing in AWS, CI/CD and Cloud.",
     url: baseUrl, 
     siteName: "Dominik Zygarski",
