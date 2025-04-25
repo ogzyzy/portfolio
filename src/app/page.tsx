@@ -144,7 +144,7 @@ export default function Portfolio() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 gap-6 items-start text-center md:text-left md:items-start">
+              <div className="grid grid-cols-1 gap-6 items-center text-center md:text-left md:items-start">
                 <div>
                   <p className="text-xs text-gray-500 uppercase mb-1">EMAIL</p>
                   <Link href="mailto:dominikzygarski@gmail.com" className="text-sm text-gray-300 hover:text-[#00B2C8]">
