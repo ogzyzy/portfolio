@@ -6,7 +6,6 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Badge } from "@/components/ui/badge"
 import { SiMedium } from "react-icons/si"
 
-
 export default function Portfolio() {
   // Projects
   const projects = [
