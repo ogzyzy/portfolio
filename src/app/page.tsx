@@ -10,6 +10,13 @@ export default function Portfolio() {
   // Projects
   const projects = [
     {
+      title: "Kubernetes For Modern Data Engineering",
+      description:
+        "Deploying Apache Airflow on Kubernetes with Helm to orchestrate data workflows using custom DAGs.",
+      tags: ["Kubernetes", "Docker", "Apache Airflow", "Python"],
+      link: "https://github.com/ogzyzy/Kubernetes-For-Modern-Data-Engineering",
+    },
+    {
       title: "AWS Image Scaler",
       description:
         "A serverless image resizing app using AWS S3 and Lambda. Built with Docker to support custom image processing. Fully automated with S3 event triggers.",
@@ -22,13 +29,6 @@ export default function Portfolio() {
         "Deployed an auto-scaled EC2 setup behind an Application Load Balancer using CloudFormation. Scaling based on CloudWatch metrics.",
       tags: ["AWS", "EC2", "CloudFormation", "CloudWatch"],
       link: "https://medium.com/@dominikzygarski_88070/implementation-of-a-scalable-architecture-with-a-load-balancer-in-aws-3a7282ca4be3",
-    },
-    {
-      title: "Serverless API Platform",
-      description:
-        "Built a serverless API platform using AWS Lambda, API Gateway, and DynamoDB with automated deployment through AWS CDK.",
-      tags: ["AWS Lambda", "API Gateway", "DynamoDB", "AWS CDK"],
-      link: "https://github.com/yourusername/serverless-api-platform",
     },
   ]
 
@@ -95,8 +95,8 @@ export default function Portfolio() {
                 <h1 className="text-3xl md:text-4xl font-bold mb-1 text-white">Dominik Zygarski</h1>
                 <h2 className="text-xl text-[#00B2C8] mb-4">DevOps Engineer</h2>
                 <p className="max-w-2xl text-gray-400 mb-4">
-                I’m passionate about solving complex problems using cloud technologies and automation. <br /> I focus on AWS, IaC, and CI/CD 
-                — currently expanding into Big Data and building hands-on projects to strengthen my skills and explore real-world data challenges.
+                I’m passionate about solving complex problems using cloud technologies and automation. <br /> I focus on AWS, IaC, and CI/CD. 
+                Currently expanding into Big Data and building hands-on projects to strengthen my skills and explore real-world data challenges.
                 </p>
 
                 <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-4">
