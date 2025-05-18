@@ -10,6 +10,13 @@ export default function Portfolio() {
   // Projects
   const projects = [
     {
+      title: "Kubernetes For Modern Data Engineering",
+      description:
+        "Deploying Apache Airflow on Kubernetes with Helm to orchestrate data workflows using custom DAGs.",
+      tags: ["Kubernetes", "Docker", "Apache Airflow", "Python"],
+      link: "https://github.com/ogzyzy/Kubernetes-For-Modern-Data-Engineering",
+    },
+    {
       title: "AWS Image Scaler",
       description:
         "A serverless image resizing app using AWS S3 and Lambda. Built with Docker to support custom image processing. Fully automated with S3 event triggers.",
@@ -22,13 +29,6 @@ export default function Portfolio() {
         "Deployed an auto-scaled EC2 setup behind an Application Load Balancer using CloudFormation. Scaling based on CloudWatch metrics.",
       tags: ["AWS", "EC2", "CloudFormation", "CloudWatch"],
       link: "https://medium.com/@dominikzygarski_88070/implementation-of-a-scalable-architecture-with-a-load-balancer-in-aws-3a7282ca4be3",
-    },
-    {
-      title: "Serverless API Platform",
-      description:
-        "Built a serverless API platform using AWS Lambda, API Gateway, and DynamoDB with automated deployment through AWS CDK.",
-      tags: ["AWS Lambda", "API Gateway", "DynamoDB", "AWS CDK"],
-      link: "https://github.com/yourusername/serverless-api-platform",
     },
   ]
 
