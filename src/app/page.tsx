@@ -96,8 +96,8 @@ export default function Portfolio() {
                 <h2 className="text-xl text-[#00B2C8] mb-4">DevOps Engineer</h2>
                 <p className="max-w-2xl text-gray-400 mb-4">
                 I&apos;m passionate about solving complex problems using cloud technologies and automation.<br/> 
-                I focus on AWS, Infrastructure as Code, and CI/CD, with a strong ambition to grow into Cloud Data Engineering and DevOps roles. 
-                Currently, I&apos;m expanding my skill set in Big Data <br/>by building hands-on projects that address real-world data challenges in cloud-based systems.
+                I focus on AWS, Infrastructure as Code, and CI/CD, with a strong ambition to grow into<br/>Cloud Data Engineering and DevOps roles. 
+                Currently, I&apos;m expanding my skill set in Big Data by building hands-on projects that address real-world data challenges in cloud-based systems.
                 </p>
 
                 <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-4">
