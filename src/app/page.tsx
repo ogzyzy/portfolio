@@ -95,8 +95,9 @@ export default function Portfolio() {
                 <h1 className="text-3xl md:text-4xl font-bold mb-1 text-white">Dominik Zygarski</h1>
                 <h2 className="text-xl text-[#00B2C8] mb-4">DevOps Engineer</h2>
                 <p className="max-w-2xl text-gray-400 mb-4">
-                I’m passionate about solving complex problems using cloud technologies and automation. <br /> I focus on AWS, IaC, and CI/CD. 
-                Currently expanding into Big Data and building hands-on projects to strengthen my skills and explore real-world data challenges.
+                I'm passionate about solving complex problems using cloud technologies and automation. 
+                I focus on AWS, Infrastructure as Code, and CI/CD, with a strong ambition to grow into Cloud Data Engineering and DevOps roles. 
+                Currently, I’m expanding my skill set in Big Data by building hands-on projects that address real-world data challenges in cloud-based systems.
                 </p>
 
                 <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-4">
