@@ -95,8 +95,9 @@ export default function Portfolio() {
                 <h1 className="text-3xl md:text-4xl font-bold mb-1 text-white">Dominik Zygarski</h1>
                 <h2 className="text-xl text-[#00B2C8] mb-4">DevOps Engineer</h2>
                 <p className="max-w-2xl text-gray-400 mb-4">
-                I’m passionate about solving complex problems using cloud technologies and automation. <br /> I focus on AWS, IaC, and CI/CD. 
-                Currently expanding into Big Data and building hands-on projects to strengthen my skills and explore real-world data challenges.
+                I&apos;m passionate about solving complex problems using cloud technologies and automation.<br/> 
+                I focus on AWS, Infrastructure as Code, and CI/CD, with a strong ambition to grow into<br/>Cloud Data Engineering and DevOps roles. 
+                Currently, I&apos;m expanding my skill set in Big Data by building hands-on projects that address real-world data challenges in the cloud.
                 </p>
 
                 <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-4">
@@ -227,13 +228,13 @@ export default function Portfolio() {
               </p>
               <p>
               Comfortable in Linux environments, I use it regularly while learning and working on personal projects. 
-              My skill set continues to grow, especially in AWS, Docker, Terraform, Kubernetes, Jenkins, and AI.
+              My skill set continues to grow, especially in AWS, Docker, Terraform, Kubernetes, GitHub Actions, and AI.
               I am fascinated by Big Data processing and data cluster engineering. In the future, 
               I aim to specialize in managing scalable and efficient DevOps environments that support complex data systems.
               </p>
               <p>
               Outside of tech, I enjoy sports, reading, and cinema. In my free time, 
-              I train my dog and attend dog sport classes together — it’s a great way to stay active, unwind, and connect beyond the digital world.
+              I train my dog and attend dog sport classes together. It’s a great way to stay active, unwind, and connect beyond the digital world.
               </p>
             </div>
           </CardContent>
