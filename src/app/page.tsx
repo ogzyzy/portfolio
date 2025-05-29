@@ -234,7 +234,7 @@ export default function Portfolio() {
               </p>
               <p>
               Outside of tech, I enjoy sports, reading, and cinema. In my free time, 
-              I train my dog and attend dog sport classes together — it’s a great way to stay active, unwind, and connect beyond the digital world.
+              I train my dog and attend dog sport classes together. It’s a great way to stay active, unwind, and connect beyond the digital world.
               </p>
             </div>
           </CardContent>
