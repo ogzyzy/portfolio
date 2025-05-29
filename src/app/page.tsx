@@ -228,9 +228,9 @@ export default function Portfolio() {
               </p>
               <p>
               Comfortable in Linux environments, I use it regularly while learning and working on personal projects. 
-              My skill set continues to grow, especially in AWS, Docker, Terraform, Kubernetes, GitHub Actions, and AI.
+              My skill set continues to grow, especially in AWS, Docker, Terraform, Kubernetes, GitHub Actions and AI.
               I am fascinated by Big Data processing and data cluster engineering. In the future, 
-              I aim to specialize in managing scalable and efficient DevOps environments that support complex data systems.
+              I aim to specialize in managing scalable and efficient DevOps environments that support data systems.
               </p>
               <p>
               Outside of tech, I enjoy sports, reading, and cinema. In my free time, 
