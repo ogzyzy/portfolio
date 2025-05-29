@@ -242,7 +242,7 @@ export default function Portfolio() {
 
         {/* Footer */}
         <footer className="text-center text-gray-500 text-sm mt-16">
-          <p>© {new Date().getFullYear()} Dominik Zygarski. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Dominik Zygarski.</p>
           <p className="mt-1 text-xs flex items-center justify-center">
             <span className="h-2 w-2 rounded-full bg-green-500 mr-2"></span> All systems operational
           </p>
